@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: "Readex Pro", sans-serif;
+}
+
+h1{
+  margin: 40px auto 0px auto;
+  font-family: "Sacramento", cursive;
+  font-size: 4.375rem;
+  color: #3E4727;
+}
+
+h2{
+  font-family: "Lexend", sans-serif;
+  color: #3E4727;
+}
+
+h3{
+  font-family: "Lexend", sans-serif;
+  color: #3E4727;
+}
+
+hr{
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+  width: 5%;
+}
+
+a:hover{
+  color: #11999E;
+}
+
+.tagline{
+  font-size: 1.25rem;
+  color: #3E4727;
+}
+
+.top-layer{
+  background-color: #9DCDF4;
+  padding: 80px;
+  position: relative;
+}
+
+.profile-pic{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.profile{
+  padding: 20px;
+}
+
+.wordsmith-icon{
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.dev-icon{
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dev-skill{
+  width: 50%;
+  position: relative;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.wordsmith-skill{
+  width: 50%;
+  position: relative;
+  margin: 100px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.top-cloud{
+  position: absolute;
+  right: 390px;
+  top: 30px;
+
+}
+
+.about-me{
+  width: 40%;
+  margin: auto;
+}
+
+.outro{
+  width: 40%;
+  margin: auto;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 390px;
+  bottom: : 310px;
+}
+
+.contact-me{
+  height: 300px;
+}
+
+.bottom-layer{
+  background-color: #60A5DD;
+  height: 100px;
+  padding: 40px;
+
+}
+
+.footer-link{
+  text-decoration: none;
+}
+
+.BUTTON_PAD {
+   -webkit-border-radius: 19px;
+   -moz-border-radius: 19px;
+   border-radius: 19px;
+   height: 20px;
+   line-height: 20px;
+   color: #FFFFFF;
+   font-family: Trebuchet MS;
+   width: 135px;
+   font-size: 25px;
+   font-weight: 100;
+   padding: 22px;
+   background-color: #3E4727;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   position: relative;
+   top: 30px;
+}
+
+.BUTTON_PAD:hover {
+   background: #417A39;
+   border: solid #6C7458 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
